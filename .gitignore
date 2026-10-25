@@ -1,0 +1,8 @@
+node_modules/
+.poly/
+dist/
+*.tsbuildinfo
+
+# The scorer's working builds (m3/runner/score.mjs, buildImpl): regenerated from the deliveries on every scoring,
+# with the checkout's path to polyrun, so they are not part of a run's record.
+m3/runs/*/scoring/
